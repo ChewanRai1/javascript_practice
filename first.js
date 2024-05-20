@@ -1,9 +1,11 @@
-const x = 1
-let y = 5
+const a = 1;
+let b = 2;
 
-console.log(x,y)
-y += 10
-console.log(x,y)
-y = `I am programmer`
-console.log(x,y)
-// x = 4
+console.log (a,b);
+a += 5;
+
+b = "I am a web developer";
+
+console.log(a) // shows error, cause its const
+console.log(b)
+
